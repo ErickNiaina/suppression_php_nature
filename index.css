@@ -1,0 +1,238 @@
+body,header,footer{
+	display: block;
+}
+body{
+	background-color:rgba(206,206,206,0.3);
+}
+input {
+   margin-left: 20px;
+}
+
+.home{
+	width:1025px;
+	height:1495px;
+	margin-left:155px;
+	font-family: sans-serif;    
+}
+
+header{
+	width:1027px;
+	height:60px;
+	background-color:#0CC9A8; 
+	border-radius:3px; 
+	color:white;
+	padding-bottom:4px;     
+}
+footer{
+	width:1027px;
+	height:60px;
+	background-color:#0CC9A8; 
+	clear: both; 
+	margin-top:20px;
+	text-align: center;     
+}
+.titre {
+	
+	background-color: gray;
+	margin-top: 300px;
+	width: 500px;
+	padding: 100px;
+}
+
+.div{
+	font-size:30px;
+	float: left; 
+	color: green;
+	margin-left:20px;
+	margin-top:15px;
+	text-align: center;
+}
+.div b{
+	color: gray;
+	margin-left: 300px;
+}
+.contenu{
+	width:1050px;
+	height:1410px;
+	margin-top:10px;
+	padding-top: 10px;
+	border-radius:3px;  
+	background-color: white; 
+	border:2px solid lightgray;    
+}
+a:hover{
+	background-color:#FF3300;
+}
+nav ul li{
+	display: inline-block;
+}
+.menu1{
+	width:988px;
+	height:50px;
+	float:left;
+	background:white;
+	color: white; 
+	padding-left:10px; 
+	border-bottom:1px solid #765;
+	margin-left:10px; 
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+.menu1 ul {
+      margin:0;
+      padding:10px 10px 0;
+      list-style:none;
+      margin-top:11px; 
+      margin-left:-22px;
+      color:white;
+}
+.menu1 li {
+      float:left;
+      margin:0;
+      padding:0 0 0 9px;
+      border-bottom:1px solid #765;
+      margin-left:2px; 
+      color:white;
+}
+li a{
+	text-decoration: none;
+}
+.active {
+background-color:#0CC9A8;
+border-radius: 5px;
+margin-right: 10px;
+}
+.menu1 a {
+      float:left;
+      display:block;
+      width:.1em;
+      padding:5px 15px 4px 6px;
+      text-decoration:none;
+      color:#765;
+      transition:1s; 
+}
+.menu1 ul a {width:auto;}
+.menu1 a {float:none;}
+.menu1 a:hover {
+      color:#333;
+}
+.jeunes, .machines,
+.assignations,.presences {
+      background-position:0 -150px;
+      border-width:0;
+      color:white;
+}
+.jeunes a,.machines a,
+.assignations a, .presences a{
+      background-position:100% -150px;
+      padding-bottom:5px;
+      color:white;
+}
+.menu1 li:hover, .menu1 li:hover a {
+      background-position:0% -150px;
+      color:black;
+      background-color: #0CC9A8;
+      border-bottom-color:white; 
+}
+.menu1 li:hover a {
+      background-position:100% -150px;   
+}
+.centre{
+	width: 500px;
+	margin-top: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 35px;
+	font-style: italic;
+	color: #F33A60;
+	border: 2px solid #FE335F;
+	background-image: url("stagiaire.jpg");
+}
+.jeunes {
+	list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+   	margin: 0 2px 0 5px;
+    background-position: center -445px;
+    background-repeat: repeat-x;
+    background-color: lightgray;
+    color: white;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    padding: 0;
+    white-space: nowrap;
+    text-decoration: none; 
+    border-top-left-radius:3px;
+    border-top-right-radius: 3px;
+}
+.machines{
+	list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 0 2px 0 5px;
+    background-position: center -445px;
+    background-repeat: repeat-x;
+    background-color: lightgray;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    padding: 0;
+    white-space: nowrap;
+    margin-left:5px;
+    border-top-left-radius:3px;
+    border-top-right-radius: 3px;
+    color: white;
+} 
+.assignations{
+	list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 0 2px 0 5px;
+    background-position: center -445px;
+    background-repeat: repeat-x;
+    background-color: lightgray;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    padding: 0;
+    white-space: nowrap;
+    border-top-left-radius:3px;
+    border-top-right-radius: 3px;
+    color: white;
+} 
+.presences{
+	list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 0 2px 0 5px;
+    background-position: center -445px;
+    background-repeat: repeat-x;
+    background-color:lightgray;
+    border: 1px solid #cccccc;
+    border-bottom: 0;
+    padding: 0;
+    white-space: nowrap;
+    border-top-left-radius:3px;
+    border-top-right-radius: 3px;
+    color: white;
+}
+table {
+ border-collapse:collapse;
+ width:85%; 
+ margin-left: 10px;
+ margin-top: 50px;
+ }
+
+th, td {
+ border:2px solid black;
+ width:20%;
+ }
+
+ th {
+    color: #A820BA;
+ }
+
+
+ 
